@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>二次元</title>
+    <style>
+        .container{
+            width:800px;
+            margin:0 auto;
+
+        }
+        h1{
+            
+            padding:20px;
+            margin:0 px;
+            text-align: center;
+            color: rgb(228, 22, 56);
+        
+        }
+        .images{
+            text-align: center;
+        }
+    </style>
+</head>
+<body background="images/1.gif">
+    <div class="continer">
+        <h1>欢迎来到我的二次元天地!!!</h1><br>
+        <hr>
+        <strong>先来张老婆镇楼！！！</strong>
+        <div class="images">
+            <img src="images/2.jpg" alt="" width="700px">
+            </div>
+    </div>
+</body>
+</html>
