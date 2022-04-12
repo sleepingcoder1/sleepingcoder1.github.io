@@ -15,7 +15,10 @@
             padding:20px;
             margin:0 px;
             text-align: center;
-            color: chartreuse;
+            color: black;
+        }
+        h1:hover{
+         color: red;
         }
         .container{
             width:800px;
@@ -24,11 +27,29 @@
         }
         h2{
             text-align:center;
-            color:rgb(243, 245, 243);
-            background-color: rgb(140, 183, 240);
+            
+           
         }
-        .images{
+        .image1{
             text-align: center;
+            bottom: 10px;
+            transition: 1s;
+        }
+        .image1:hover{
+            transform: rotate(360deg);
+        }
+        .box{
+            top:5px;
+            width: 800px;
+            height: 40px;
+            background-color: white;
+            transition: 2s;
+            text-align:center;
+        }
+        .box:hover{
+            background-color: green;
+            
+           
         }
 
     </style>
@@ -36,12 +57,14 @@
 <body background="images/背景.gif">
     <div class="container">
     <h1>Weclome to my website!!!</h1>
-    <div class="images">
+    <div class="image1">
     <img src="https://img2.baidu.com/it/u=879483550,3297235926&fm=253&fmt=auto&app=138&f=JPEG?w=621&h=500" alt="" width="200px">
     </div>
     <a href="table.html">填写资料</a>
     <hr>
+    <div class="box">
 <h2><strong>自我介绍</strong></h2>
+</div>
 <ul>
     <li>姓名：不愿意透露姓名的人</li>
     <li>性别：男</li>
