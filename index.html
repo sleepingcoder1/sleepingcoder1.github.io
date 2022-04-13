@@ -16,66 +16,86 @@
             margin:0 px;
             text-align: center;
             color: black;
+            animation: h1a 10s infinite;
+            
         }
-        h1:hover{
-         color: red;
+        @keyframes h1a{
+            50%{color: red;}
         }
         .container{
             width:800px;
             margin:0 auto;
+            box-shadow: 5px 5px 5px 5px;
+            background-image: url(images/11.jpg);
 
         }
+        
         h2{
             text-align:center;
-            
+            color: blue;
            
         }
         .image1{
             text-align: center;
             bottom: 10px;
             transition: 1s;
+            border-top: 10px;
         }
         .image1:hover{
             transform: rotate(360deg);
         }
         .box{
-            top:5px;
+            
             width: 800px;
             height: 40px;
-            background-color: white;
+           background-color: white;
             transition: 2s;
             text-align:center;
+            box-shadow: 3px 3px 3px 3px;
         }
         .box:hover{
-            background-color: green;
+            background-color: yellow;
             
            
         }
         
         .goback{
-            width: 40px;
-            height: 40px;
+            width: 100px;
+            height: 100px;
           background-color: rgb(230, 23, 51);
             position:fixed;
             right:0;
             bottom: 0px;
-            border-radius: 50%;
+            background-image: url(images/鸡.jpg);
             animation: yes 10s infinite;
+            
         }
         @keyframes yes{
-            50%{right:1500px;
+            50%{bottom: 550px;
            }
+        }
+        .tables{
+            margin: 20px;
+           
+        }
+        .blank{
+            height: 10px;
+        }
+        h3{
+            text-align:center;
+            color: red;
+
         }
 
     </style>
 </head>
 <body background="images/背景.gif">
     <div class="container">
-    <h1>Weclome to my website!!!</h1>
+    <h1>Welcome to my website!!!</h1>
     <div class="image1">
-    <img src="https://img2.baidu.com/it/u=879483550,3297235926&fm=253&fmt=auto&app=138&f=JPEG?w=621&h=500" alt="" width="200px">
+    <img src="https://img2.baidu.com/it/u=879483550,3297235926&fm=253&fmt=auto&app=138&f=JPEG?w=621&h=500" alt="哦哟" width="200px">
     </div>
-    <a href="table.html">填写资料</a>
+    <a href="table.html" style="text-decoration:none">填写资料</a>
     <hr>
     <div class="box">
  
@@ -85,10 +105,45 @@
     <li>姓名：不愿意透露姓名的人</li>
     <li>性别：男</li>
     <li>年龄：19</li>
-    <li>爱好：运动,game,<a href="erciyuan.html">二次元</a></li>
-    <li>学校：<a href="website.html">上海对外经贸大学</a></li>
+    <li>爱好：运动,game,<a href="erciyuan.html" style="text-decoration:none">二次元</a></li>
+    <li>学校：<a href="website.html" style="text-decoration:none">上海对外经贸大学</a></li>
 </ul>
-
+<hr>
+<div class="part2">
+    <div class="box"><h2>我的个人经历</h2></div>
+    <div class="tables">
+    <table style="width:100%" border=1px cellspacing=0>
+        <tr>
+            <td>时间</td>
+            <td>地点</td>
+            <td>职务</td>
+        </tr>
+        <tr>
+            <td>2002-2010</td>
+            <td>胜利队</td>
+            <td>队长</td>
+        </tr>
+        <tr>
+            <td>2010-2020</td>
+            <td>FFF团</td>
+            <td>被审判者</td>
+        </tr>
+        <tr>
+            <td>2020-现在</td>
+            <td>彩虹小队</td>
+            <td>timing侠</td>
+        </tr>
+    </table>
+</div>
+<div class="part3">
+    <div class="box"><h2>自我介绍</h2></div>
+    <div class="blank"></div>
+    <div class="blank"></div>
+    <h3>不想当将军的士兵不是好士兵!!!</h3>
+</div>
+<div class="blank"></div>
+<div class="blank"></div>
+</div>
 </div>
 <div class="goback" ></div>
 </body>
